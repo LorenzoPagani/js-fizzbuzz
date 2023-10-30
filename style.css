@@ -1,0 +1,36 @@
+body {
+    background-color: #083B4C;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.fizzbuzz {
+    background-color: deeppink;
+}
+
+.normal {
+    background-color: chocolate;
+}
+
+.buzz {
+    background-color: greenyellow;
+}
+
+.fizz {
+    background-color: steelblue;
+}
+
+p {
+    width: calc((100% / 4) - 10px);
+    aspect-ratio: 1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
